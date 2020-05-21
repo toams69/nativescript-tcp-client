@@ -1,7 +1,7 @@
 {
 	"name": "nativescript-tcp-client",
 	"version": "1.0.0",
-	"description": "Your awesome NativeScript plugin.",
+	"description": "Simple TCP client NativeScript plugin.",
 	"main": "tcp-client",
 	"typings": "index.d.ts",
 	"nativescript": {
@@ -24,9 +24,6 @@
 		"demo.ios": "npm i && cd ../demo && tns run ios",
 		"demo.android": "npm i && cd ../demo && tns run android",
 		"demo.reset": "cd ../demo && npx rimraf -- hooks node_modules platforms package-lock.json",
-		"demo-angular.ios": "npm i && cd ../demo-angular && tns run ios",
-		"demo-angular.android": "npm i && cd ../demo-angular && tns run android",
-		"demo-angular.reset": "cd ../demo-angular && npx rimraf -- hooks node_modules platforms package-lock.json",
 		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-tcp-client && tns plugin add ../src && cd ../demo-angular && tns plugin remove nativescript-tcp-client && tns plugin add ../src",
 		"clean": "npm run demo.reset && npm run demo-angular.reset && npx rimraf -- node_modules package-lock.json && npm i"
 	},
@@ -37,14 +34,14 @@
 		"iOS"
 	],
 	"author": {
-		"name": "Your Name",
-		"email": "youremail@yourdomain.com"
+		"name": "Thomas Pariaud",
+		"email": "tpariaud@gmail.com"
 	},
 	"bugs": {
-		"url": "https://github.com/Thomas Pariaud/nativescript-tcp-client/issues"
+		"url": "https://github.com/toams69/nativescript-tcp-client/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/Thomas Pariaud/nativescript-tcp-client",
+	"homepage": "https://github.com/toams69/nativescript-tcp-client",
 	"devDependencies": {
 		"tns-core-modules": "^6.0.0",
 		"tns-platform-declarations": "^6.0.0",
@@ -54,6 +51,5 @@
 		"tslint": "^5.12.1",
 		"semver": "^5.6.0"
 	},
-	"dependencies": {},
-	"bootstrapper": "nativescript-plugin-seed"
+	"dependencies": {}
 }
