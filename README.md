@@ -37,4 +37,4 @@ Describe your plugin methods and properties here. See [nativescript-feedback](ht
     
 ## License
 
-Apache License Version 2.0, January 2004
+MIT
